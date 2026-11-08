@@ -26,5 +26,5 @@
 - [x] Gizlilik ve güvenlik notları, katkı rehberi ve açık kaynak lisansı içeren kaliteli GitHub dokümantasyonu sunulmalı.
 - [x] Kod okunabilir ve bakımı kolay olmalı.
 - [x] Üretim yapısı statik barındırmaya uygun olmalı ve tekrarlanabilir deploy iş akışı içermeli.
-- [ ] Proje GitHub'da ilk proje olarak sunulmaya ve paylaşılmaya hazır olmalı; gerçek popülerlik garanti edilemez.
+- [x] Proje GitHub'da ilk proje olarak sunulmaya ve paylaşılmaya hazır olmalı; gerçek popülerlik garanti edilemez.
 - [ ] Yayına alma kullanıcıyla birlikte ve açık onaylı şekilde tamamlanmalı.
