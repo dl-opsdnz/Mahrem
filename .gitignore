@@ -109,5 +109,9 @@ temp/
 # Webdev artifacts (checkpoint zips, migrations, etc.)
 .webdev/
 
+# Manus starter metadata and development-only debug collector
+/.manus-starter-init.json
+/client/public/__manus__/debug-collector.js
+
 # Manus version file (auto-generated, not part of source)
 client/public/__manus__/version.json
