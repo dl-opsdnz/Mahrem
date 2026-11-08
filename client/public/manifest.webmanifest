@@ -1,0 +1,19 @@
+{
+  "name": "Mahrem — Private Text Sanitizer",
+  "short_name": "Mahrem",
+  "description": "Find and redact sensitive text locally in your browser.",
+  "lang": "tr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f5f5ef",
+  "theme_color": "#f5f5ef",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

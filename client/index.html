@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f5f5ef" />
+    <meta name="referrer" content="no-referrer" />
+    <meta
+      name="description"
+      content="Metnindeki kişisel bilgileri tarayıcında bul ve maskele. Mahrem: ücretsiz, açık kaynaklı ve yerel çalışan metin temizleyici."
+    />
+    <meta
+      name="keywords"
+      content="kişisel veri, metin temizleyici, gizlilik, açık kaynak, regex, veri maskeleme"
+    />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Mahrem" />
+    <meta
+      property="og:title"
+      content="Mahrem — Metnini paylaş. Sırlarını değil."
+    />
+    <meta
+      property="og:description"
+      content="Kişisel bilgileri tarayıcında bul ve maskele. Metnin sekmenden çıkmadan çalışır."
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta
+      name="twitter:title"
+      content="Mahrem — Metnini paylaş. Sırlarını değil."
+    />
+    <meta
+      name="twitter:description"
+      content="Kişisel bilgileri tarayıcında bul ve maskele. Metnin sekmenden çıkmadan çalışır."
+    />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <title>Mahrem — Metnini paylaş. Sırlarını değil.</title>
+    <style>
+      body {
+        margin: 0;
+        background: #f5f5ef;
+        color: #1b2521;
+        font-family: system-ui, sans-serif;
+      }
+      .seo-fallback {
+        max-width: 64rem;
+        margin: 8vh auto;
+        padding: 2rem;
+        line-height: 1.6;
+      }
+      .seo-fallback h1 {
+        font-size: clamp(2.5rem, 7vw, 5rem);
+        line-height: 1;
+        letter-spacing: -0.06em;
+      }
+      .seo-fallback h2 {
+        margin-top: 3rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <main class="seo-fallback">
+        <p>MAHREM · YEREL METİN TEMİZLEYİCİ</p>
+        <h1>Metnini paylaş. Sırlarını değil.</h1>
+        <p>
+          Mahrem, metnindeki e-posta, telefon, T.C. kimlik numarası, IBAN, IP
+          adresi, URL ve yaygın API anahtarı kalıplarını tarayıcında tespit edip
+          maskeleyen açık kaynaklı bir araçtır.
+        </p>
+        <h2>Metnin tarayıcından çıkmaz</h2>
+        <p>
+          Tarama cihazında, ayrı bir Web Worker içinde yapılır. Hesap açman
+          gerekmez; metnin sunucuya gönderilmez veya kaydedilmez. Eşleşmeleri
+          yer tutucuyla değiştir, maskele ya da kaldır. Özel regex kuralları
+          ekle ve temizlenmiş metni yalnızca sen seçersen kopyala veya indir.
+        </p>
+        <p>Mahrem'i kullanmak için JavaScript'i etkinleştir.</p>
+      </main>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
